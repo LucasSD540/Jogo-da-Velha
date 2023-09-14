@@ -46,7 +46,7 @@ for(let i = 0; i < boxes.length; i++) {
 }
 
 // evento para saber se é 2 players ou IA
-for(let i = 0; i < boxes.length; i++) {
+for(let i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener("click", function() {
         secondPlayer = this.getAttribute("id");
 
